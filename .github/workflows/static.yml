@@ -26,7 +26,7 @@ jobs:
 
       - name: Build the documentation site
         run: | 
-            antora local-playbook.yml
+            antora antora-playbook.yml
 
 
       - name: Deploy to GitHub Pages
