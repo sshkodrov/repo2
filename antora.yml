@@ -5,8 +5,9 @@ site:
   url: https://docs.myproject.com
 content:
   sources:
-    - url: ./docs/modules/ROOT
+    - url: https://github.com/sshkodrov/repo1.git
       branches: ["master"]
+      start_path: docs/ROOT/
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
