@@ -25,7 +25,8 @@ jobs:
       #     sudo mv antora-3.1.9/bin/antora /usr/local/bin
 
       - name: Build the documentation site
-        run: antora local-playbook.yml
+        run: | 
+            antora local-playbook.yml
 
 
       - name: Deploy to GitHub Pages
