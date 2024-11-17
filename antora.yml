@@ -1,7 +1,7 @@
 
 site:
   title: My Project Documentation
-  start_page: ROOT::index.adoc
+  start_page: ROOT:index
   url: https://docs.myproject.com
 content:
   sources:
