@@ -1,7 +1,7 @@
 
 site:
   title: My Project Documentation
-  start_page: ROOT::index.adoc 
+  start_page: ROOT::index.adoc
   url: https://docs.myproject.com
 content:
   sources:
@@ -12,4 +12,4 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
 output:
-  dir: ./build        
+  dir: ./build   
