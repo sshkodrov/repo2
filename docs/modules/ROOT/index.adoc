@@ -1,0 +1,9 @@
+= My Project Documentation
+Welcome to the official documentation for My Project!
+
+== Introduction
+This section introduces the project.
+
+== Getting Started
+Here's how to get started with the project.
+    
