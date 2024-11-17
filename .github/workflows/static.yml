@@ -26,7 +26,7 @@ jobs:
 
       - name: Build the documentation site
         run: | 
-            antora generate antora.yml --stacktrace
+            antora --fetch antora.yml --stacktrace
 
 
       - name: Deploy to GitHub Pages
