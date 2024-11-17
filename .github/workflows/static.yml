@@ -27,7 +27,9 @@ jobs:
       - name: Build the documentation site
         run: | 
             antora generate antora.yml --stacktrace
-
+      - name: List build directory contents
+        run: |
+            ls -R ./build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
