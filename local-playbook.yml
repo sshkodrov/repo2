@@ -5,7 +5,8 @@ site:
 
 content:
   sources:
-    - url: ./docs/modules/ROOT
+    - url: https://github.com/sshkodrov/repo1.git
+      start_page: docs
       branches: master
 
 ui:
