@@ -7,7 +7,7 @@ content:
   sources:
     - url: https://github.com/sshkodrov/building-a-multibranch-pipeline-project.git
       branches: master
-      start_path: ./
+      # start_path: ./
 
 ui:
   bundle:
