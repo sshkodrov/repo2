@@ -5,8 +5,9 @@ site:
 
 content:
   sources:
-    - url: ./docs
+    - url: https://github.com/sshkodrov/repo1/repo1.git
       branches: master
+      start_path: docs
 
 ui:
   bundle:
