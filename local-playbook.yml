@@ -5,7 +5,7 @@ site:
 
 content:
   sources:
-    - url: ./docs
+    - url: ./docs/modules/ROOT
       branches: master
 
 ui:
