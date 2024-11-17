@@ -36,4 +36,4 @@ jobs:
         with:
           github_token: ${{ secrets.MY_ANTORA_TOKEN }}
           publish_dir: build
-          publish_branch: gh_pagees1
+          publish_branch: gh_pages1
